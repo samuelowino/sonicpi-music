@@ -104,7 +104,7 @@ play 60, pan: -1
 ## Inbuilt Synths
 Sonic Pi has a number of different intruments it calls synths (which are *short for syntheisisers*).
 
-```rub
+```ruby
 use_synth :prophet
 play 38
 sleep 0.25

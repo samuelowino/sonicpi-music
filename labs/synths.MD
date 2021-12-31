@@ -101,4 +101,16 @@ Panning a sound to the left means that you hear it from the left speaker.
 play 60, pan: -1
 ```
 
+## Inbuilt Synths
+Sonic Pi has a number of different intruments it calls synths (which are *short for syntheisisers*).
+
+```rub
+use_synth :prophet
+play 38
+sleep 0.25
+play 50
+sleep 0.25
+play 62
+```
+
 
